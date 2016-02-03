@@ -11,24 +11,19 @@
  background-color = #272822
  background-color-hover = #49483E
  selected-range-color = background-color-hover
- muted-text-color = #75715E
- text-color = #F8F8F2
- blue-text-color = #66D9EF
+ muted-text-color = #F8F8F2
+ text-color = #66D9EF
+ blue-text-color = #AE81FF
  red-text-color = #F92672
-
-// background-color = #333
-// background-color-hover = #555
-// selected-range-color = #555
-// muted-text-color = #aaa
-// text-color = #fff
-// blue-text-color = #07b
-// red-text-color = #c22
+ disabled-color = #75715E
 
  hover-day-color = blue-text-color
  hover-weekend-color = blue-text-color
  border-color = black
  selected-color = background-color-hover
- inside-border-color = muted-text-color
+ inside-border-color = disabled-color
+ disabled-background-color = background-color
+
  border-radius = 0
  cell-padding = 4px
  cell-margin = 0
@@ -65,9 +60,9 @@ $dp-datepicker-day-padding = cell-padding
 $dp-datepicker-day-border-radius = border-radius
 
 $dp-datepicker-day-other-month-color = muted-text-color
-$dp-datepicker-day-disabled-color = inherit
+$dp-datepicker-day-disabled-color = disabled-color
 $dp-datepicker-day-other-month-bg = inherit
-$dp-datepicker-day-disabled-bg = $dp-datepicker-day-other-month-bg
+$dp-datepicker-day-disabled-bg = disabled-background-color
 $dp-datepicker-day-in-range-bg = #E2F0FF
 
 $dp-datepicker-font-size = 14px
@@ -98,7 +93,7 @@ $dp-datepicker-week-day-names-border-width = 1px
 $dp-datepicker-week-day-names-border-style = solid
 $dp-datepicker-week-day-names-border-color = border-color
 $dp-datepicker-week-day-names-background = $dp-datepicker-header-background
-$dp-datepicker-week-day-names-color = muted-text-color
+$dp-datepicker-week-day-names-color = disabled-color
 $dp-datepicker-week-day-name-border = none
 
 $dp-datepicker-weekend-highlight-color = red-text-color

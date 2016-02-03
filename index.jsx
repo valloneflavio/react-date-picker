@@ -1,7 +1,10 @@
 'use strict'
 
-require('./style/base.styl')
-require('./style/theme/hackerone/index.styl')
+ require('./style/base.styl')
+ require('./style/theme/monokai/index.styl')
+
+// require ('./theme/monokai.css')
+// require ('./base.css')
 
 var moment = require('moment');
 var React      = require('react')
@@ -57,13 +60,14 @@ var App = React.createClass({
             </p>
 
             <DatePicker
+              minDate={moment().format('YYYY-MM-DD')}
               xweekStartDay={3}
               highlightWeekends={true}
               locale="ro"
               weekNumberName="x"
               weekNumbers
-              //defaultRange={range}
-              defaultDate={date}
+              defaultRange={range}
+              //defaultDate={date}
               //onChange={this.onRangeChange}
               //onRangeChange={this.onRangeChange}
               xweekDayNames={['S','M','T','W','T','F','S']}

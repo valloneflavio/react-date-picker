@@ -66,6 +66,8 @@
       &.dp-next
         color $dp-datepicker-day-other-month-color
         background $dp-datepicker-day-other-month-bg
+        &:hover
+          color $dp-datepicker-today-color
 
       &:hover
         font-weight $dp-datepicker-cell-over-font-weight
@@ -73,8 +75,8 @@
 
       &.dp-disabled
         cursor default
-        color $dp-datepicker-day-disabled-bg
-        background $dp-datepicker-day-disabled-color
+        color $dp-datepicker-day-disabled-color
+        background $dp-datepicker-day-disabled-bg
 
       &.dp-value
         color $dp-datepicker-value-color
@@ -99,9 +101,10 @@
   .dp-footer
     padding 3px
     justify-content center
+    border-width 0
     border-top $dp-datepicker-inside-border-color
     border-style $dp-datepicker-border-style = solid
-    border-width $dp-datepicker-border-width
+    border-top-width $dp-datepicker-border-width
 
     .dp-footer-selected
       color $dp-datepicker-footer-color
