@@ -97,6 +97,11 @@
         cursor default
         background inherit
         border $dp-datepicker-week-day-name-border
+        
+     &.dp-weeknumber
+        cursor default
+        background inherit
+        border $dp-datepicker-week-day-name-border
 
   .dp-footer
     padding 3px
@@ -159,12 +164,19 @@
   .dp-nav-cell
     cursor pointer
 
+  .dp-nav-container
+    border-radius 50%
+    &:hover
+      background: gray
+
   .dp-nav-table .dp-nav-cell.dp-cell
     border $dp-datepicker-header-cell-border
     padding 0
     margin-top 5px
     width 0
     height 0
+
+
     &.dp-prev-nav
       border-right-color $dp-datepicker-nav-bg
       &:hover

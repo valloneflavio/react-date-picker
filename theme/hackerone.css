@@ -54,7 +54,7 @@
   background: inherit;
 }
 .date-picker .dp-table .dp-cell.dp-in-range {
-  background: #e2f0ff;
+  background: #6EB8F1;
 }
 .date-picker .dp-table .dp-cell:hover {
   color: inherit;
@@ -84,6 +84,12 @@
   overflow: hidden;
 }
 .date-picker .dp-table .dp-cell.dp-week-day-name {
+  cursor: default;
+  background: inherit;
+  border: none;
+
+}
+.date-picker .dp-table .dp-cell.dp-weeknumber {
   cursor: default;
   background: inherit;
   border: none;
