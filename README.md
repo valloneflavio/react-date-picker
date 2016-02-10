@@ -55,11 +55,12 @@ If you want to load a specific theme, make sure you load
 ```jsx
 require('react-date-picker/base.css')
 ```
-first (which contains only structural css rules), and then any css theme file. For now, there are three themes available:
+first (which contains only structural css rules), and then any css theme file. For now, there are four themes available:
  
  * `react-date-picker/theme/default.css`
  * `react-date-picker/theme/hackerone.css`
  * `react-date-picker/theme/monokai.css`
+ * `react-date-picker/theme/flat.css`
 
 ### hackerone theme
  
