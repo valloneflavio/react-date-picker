@@ -23,6 +23,7 @@ module.exports = React.createClass({
     return <div className="dp-header">
       <div className="dp-nav-table">
         <div className="dp-row">
+
           <div
             tabIndex="1"
             role="link"
@@ -39,7 +40,8 @@ module.exports = React.createClass({
             colSpan={props.colspan}
             onClick={props.onChange}
             onKeyUp={onEnter(props.onChange)}
-          >{props.children}</div>
+          >{props.children}
+          </div>
 
           <div
             tabIndex="1"
@@ -47,7 +49,9 @@ module.exports = React.createClass({
             className="dp-next-nav dp-nav-cell dp-cell"
             onClick={props.onNext}
             onKeyUp={onEnter(props.onNext)}
-          >{props.nextText}</div>
+          >{props.nextText}
+          </div>
+
         </div>
         </div>
       </div>
