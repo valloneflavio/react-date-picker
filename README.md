@@ -62,7 +62,7 @@ first (which contains only structural css rules), and then any css theme file. F
  * `react-date-picker/theme/monokai.css`
  * `react-date-picker/theme/flat.css`
  * `react-date-picker/theme/material.css`
- * `react-date-picker/theme/highContrast.css`
+ * `react-date-picker/theme/contrast.css`
 
 ### hackerone theme
  
