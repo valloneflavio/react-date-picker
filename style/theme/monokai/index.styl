@@ -91,7 +91,20 @@
         background $dp-datepicker-value-selected-range-bg
 
       &.dp-month
+        cursor pointer
         ellipsis true
+        color $dp-datepicker-month-color
+        &:hover
+          color $dp-datepicker-month-hover-color
+          background $dp-datepicker-month-name-over-bg 
+
+      &.dp-year
+        cursor pointer
+        ellipsis true
+        color $dp-datepicker-month-color
+        &:hover
+          color $dp-datepicker-month-hover-color
+          background $dp-datepicker-month-name-over-bg 
 
       &.dp-week-day-name
         cursor default
