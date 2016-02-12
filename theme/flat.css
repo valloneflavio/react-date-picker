@@ -63,8 +63,7 @@
 }
 .date-picker .dp-table .dp-cell.dp-disabled {
   cursor: default;
-  color: #aeaeae;
-  background: inherit;
+  color: #cecece;
 }
 .date-picker .dp-table .dp-cell.dp-value {
   color: #fff;
